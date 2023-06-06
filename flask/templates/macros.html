@@ -1,0 +1,12 @@
+{% macro get_varkw() %}
+<p>varargs: {{ varargs }}</p>
+<p>kwargs: {{ kwargs }}</p>
+{% endmacro %}
+
+{% macro post_email(email, message, title="Без темы") %}
+{% if "@" not in email %}
+{{ "E-mail "{{ email }}" некорректный" }}
+{% else %}
+{{ "Сообщение "{{ message }}" для адресата "{{ email }}" отправлено с темой "{{ title }} }}
+{% endif %}
+{% endmacro %}

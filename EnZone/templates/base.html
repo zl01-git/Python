@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Turbo-Flask Streams Demo</title>
+    {{ turbo() }}
+  </head>
+  <body>
+    {% include "loadavg.html" %}
+    {% include "map.html" %}
+    {% block content %}{% endblock %}
+  </body>
+</html>

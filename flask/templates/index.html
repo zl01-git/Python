@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block menu %}
+{% include "menu.html" %}
+{{ super() }}
+<li><a href="#">Contact</a></li>
+{% endblock %}
+
+
+{% block content %}
+<h1>Home page</h1>
+<p>Hello jinja</p>
+<hr>
+{% endblock %}

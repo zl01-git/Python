@@ -1,0 +1,19 @@
+
+html {
+    font-size: larger;
+    background-color: rgb(48, 48, 48);
+}
+h1 {
+    background-color: rgb(48, 48, 48);
+    color: rebeccapurple;
+}
+p {
+    color: brown;
+    font-size: larger;
+    background-color: rgb(48, 48, 48);
+}
+ul {
+    color: brown;
+}
+
+
