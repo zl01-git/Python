@@ -14,4 +14,3 @@ class Coordinates(NamedTuple):
 
 moscow = Coordinates(43.13, 14.23)
 print(moscow._asdict)
-print()
